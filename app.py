@@ -27,7 +27,7 @@ def home():
         soliloquy_theme = "To be, or not to be, that is the question... (existential crisis, mortality, and the human condition)"
         prompt = f"""
         Rewrite Hamlet's 'To Be or Not To Be' soliloquy as a {genre} piece, heavily inspired by the music of {music} and the world/style of {film}. 
-        Set it in a place like {place}, and write it from the perspective of {pov}. Do not write it from the perspective of an AI, but rather as a human character.
+        Set it in a place like {place}, and write it from the perspective of {pov}. Do not write it from the perspective of an AI or talk about digital existence, but rather write it as the POV human character.
         Maintain the existential theme of grappling with life, death, and meaning, but express it in the voice and mood fitting the inputted settings.
 
         Here is the original theme for reference:
