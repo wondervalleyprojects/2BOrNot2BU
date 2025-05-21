@@ -3,7 +3,7 @@
 **2BOrNot2BU** is a creative web app that generates a personalized version of Hamlet’s “To Be or Not To Be” soliloquy using Google Gemini AI.  
 You choose the genre, favorite music, film, setting, and character perspective—your soliloquy is instantly reimagined just for you.
 
-[screenshot of the app](screenshot.png)
+[screenshot of the app](Screenshot.png)
 
 ---
 
