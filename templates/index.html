@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2BOrNot2BU: Your Personalized Soliloquy</title>
+    <style>
+        body { font-family: 'Georgia', serif; margin: 40px; background: #f7f6ef; }
+        h1 { color: #623f1c; }
+        form { margin-bottom: 30px; }
+        label { display: block; margin-top: 15px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 4px; border-radius: 6px; border: 1px solid #bbb; }
+        button { margin-top: 20px; background: #623f1c; color: white; border: none; padding: 12px 28px; border-radius: 6px; cursor: pointer; font-size: 1.1em; }
+        .soliloquy { background: #fff7e6; border-left: 6px solid #e0c36d; padding: 24px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>2BOrNot2BU: Your Personalized Soliloquy</h1>
+    <form method="post">
+        <label>Genre/Style:</label>
+        <input type="text" name="genre" placeholder="e.g., cyberpunk noir" required>
+        <label>Favorite Musical Artist or Band:</label>
+        <input type="text" name="music" placeholder="e.g., Radiohead" required>
+        <label>Favorite Movie or TV Show:</label>
+        <input type="text" name="film" placeholder="e.g., Blade Runner" required>
+        <label>Special Place/Setting:</label>
+        <input type="text" name="place" placeholder="e.g., a neon-lit rooftop" required>
+        <label>Point of View Character:</label>
+        <input type="text" name="pov" placeholder="e.g., Ophelia" required>
+        <button type="submit">Generate My Soliloquy</button>
+    </form>
+
+    {% if soliloquy %}
+    <div class="soliloquy">
+        <h2>Your Custom Soliloquy</h2>
+        <pre style="white-space: pre-wrap;">{{ soliloquy }}</pre>
+    </div>
+    {% endif %}
+</body>
+</html>
