@@ -91,6 +91,15 @@
       <div class="soliloquy-box">
         <h4 style="font-family:'UnifrakturCook',cursive; color:#ffe164;">Your Custom Soliloquy</h4>
         <div>{{ soliloquy }}</div>
+        <hr>
+    <h5>Step 2: Perform and Upload Your Soliloquy!</h5>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+      <input type="hidden" name="soliloquy_text" value="{{ soliloquy }}">
+      <label for="video_file">Record/Upload Your Performance (MP4):</label>
+      <input type="file" accept="video/*" name="video_file" required>
+      <input type="text" name="nickname" placeholder="Your Name/Nickname" class="form-control my-2">
+      <button class="btn btn-primary mt-2" type="submit">Upload to Gallery</button>
+    </form>
       </div>
       {% endif %}
     </div>
