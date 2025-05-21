@@ -1,0 +1,107 @@
+{
+    "title": "Hamlet",
+    "core_themes": [
+      "revenge",
+      "madness",
+      "family betrayal",
+      "appearance vs. reality",
+      "death and the afterlife"
+    ],
+    "key_characters": {
+      "Hamlet": {
+        "role": "Prince of Denmark",
+        "motivation": "To avenge his father while grappling with existential doubt."
+      },
+      "Claudius": {
+        "role": "King of Denmark, Hamlet's uncle",
+        "motivation": "To secure and maintain his ill-gotten power while hiding his guilt."
+      },
+      "Gertrude": {
+        "role": "Queen, Hamlet's mother",
+        "motivation": "To preserve stability and her own security, even at moral cost."
+      },
+      "Ophelia": {
+        "role": "Hamlet's love interest",
+        "motivation": "To obey her father and society while navigating her love for Hamlet."
+      },
+      "Polonius": {
+        "role": "Royal advisor, Ophelia's father",
+        "motivation": "To protect his status and his family by controlling events."
+      },
+      "Laertes": {
+        "role": "Ophelia's brother",
+        "motivation": "To protect his family’s honor through swift action."
+      },
+      "Horatio": {
+        "role": "Hamlet's best friend",
+        "motivation": "To stay loyal to Hamlet and bear witness to the truth."
+      },
+      "Ghost": {
+        "role": "Hamlet’s deceased father",
+        "motivation": "To incite Hamlet to vengeance and reveal the truth of his death."
+      }
+    },
+    "acts": [
+      {
+        "act_number": 1,
+        "title": "The Ghost Appears",
+        "essential_beats": [
+          "Guards witness the ghost of King Hamlet.",
+          "Horatio alerts Hamlet.",
+          "Ghost reveals Claudius’s crime to Hamlet.",
+          "Hamlet vows to avenge his father."
+        ],
+        "recognition": "Hamlet recognizes that the corruption in Denmark runs deeper than he imagined.",
+        "reversal": "Hamlet abandons his passive mourning and commits himself to revenge."
+      },
+      {
+        "act_number": 2,
+        "title": "Doubt and Madness",
+        "essential_beats": [
+          "Hamlet behaves erratically to conceal his plans.",
+          "Polonius believes Hamlet is mad for love of Ophelia.",
+          "Claudius and Gertrude seek the cause of Hamlet’s behavior.",
+          "Hamlet plans 'The Mousetrap' play to confirm Claudius’s guilt."
+        ],
+        "recognition": "Hamlet realizes he cannot trust appearances or the word of others.",
+        "reversal": "He shifts from internal doubt to testing others actively."
+      },
+      {
+        "act_number": 3,
+        "title": "The Play's the Thing",
+        "essential_beats": [
+          "The players perform the play mirroring King Hamlet’s murder.",
+          "Claudius reacts with guilt, confirming the Ghost’s story.",
+          "Hamlet confronts Gertrude in her chambers.",
+          "Hamlet mistakenly kills Polonius."
+        ],
+        "recognition": "Hamlet recognizes the terrible cost of his quest: innocents will suffer.",
+        "reversal": "He becomes more reckless, no longer trusting himself to act rationally."
+      },
+      {
+        "act_number": 4,
+        "title": "Fallout",
+        "essential_beats": [
+          "Claudius sends Hamlet to England to be executed.",
+          "Ophelia descends into madness and dies.",
+          "Laertes returns and allies with Claudius to seek vengeance.",
+          "Claudius and Laertes plot Hamlet’s death via duel."
+        ],
+        "recognition": "Laertes recognizes the corrupting influence of grief and rage.",
+        "reversal": "Laertes transforms from honorable son to willing conspirator."
+      },
+      {
+        "act_number": 5,
+        "title": "Graves and Ghosts",
+        "essential_beats": [
+          "Hamlet returns and confronts mortality in the graveyard.",
+          "Laertes and Hamlet duel at Ophelia’s funeral.",
+          "Poison and betrayal bring mutual destruction.",
+          "Horatio survives to tell Hamlet’s story."
+        ],
+        "recognition": "Hamlet recognizes the futility of earthly ambition and accepts death.",
+        "reversal": "He moves from obsessive revenge to a calm acceptance of destiny."
+      }
+    ]
+  }
+  
