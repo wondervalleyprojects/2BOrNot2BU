@@ -3,6 +3,7 @@ load_dotenv()
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, flash
 import google.generativeai as genai
 import os
+os.makedirs('static/uploads', exist_ok=True)
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
