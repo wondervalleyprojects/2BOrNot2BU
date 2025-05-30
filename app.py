@@ -64,10 +64,13 @@ def upload():
         flash('No selected file')
         return redirect(request.url)
     if file and allowed_file(file.filename):
-        filename = secure_filename(file.filename)
+        import uuid
+        ext = file.filename.rsplit('.', 1)[1].lower()
+        unique_id = uuid.uuid4().hex
+        filename = secure_filename(f"{unique_id}.{ext}")
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(filepath)
-        # Save the soliloquy text and nickname (append to a JSON, SQLite, etc)
+        # Save the soliloquy text and nickname
         with open('gallery.txt', 'a') as f:
             f.write(f"{filename}|{request.form['nickname']}|{request.form['soliloquy_text']}\n")
         return redirect(url_for('gallery'))
